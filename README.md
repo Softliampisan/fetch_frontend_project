@@ -5,7 +5,10 @@ This is a React + Vite website for finding and matching with dogs. Get started r
 Follow the steps below to set up and run the project locally.
 
 ---
-⚠️ Important: Make sure your browser allows cookies and cross-site tracking. The backend sends an HTTPOnly cookie with a JSON Web Token (JWT), and browser settings may block it by default. To ensure proper authentication and session management, enable cookies in your browser settings.
+⚠️ **Important Notes**  
+
+- **Enable Cookies:** Make sure your browser allows cookies and cross-site tracking. The backend sends an HTTPOnly cookie with a JSON Web Token (JWT), and browser settings may block it by default. Enable cookies in your browser settings to ensure proper authentication and session management.  
+- **Page Refresh Issue on GitHub Pages:** Since GitHub Pages does not support client-side routing, refreshing any non-home page (e.g., `/available_dogs`) may result in a **404 error**. To handle this, a workaround has been applied by copying `index.html` to `404.html`. The site will still work, but browsers may return a 404 status for non-root pages.  
 
 ## Getting Started
 
