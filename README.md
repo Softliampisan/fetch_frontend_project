@@ -36,12 +36,12 @@ VITE_BASE_URL=https://frontend-take-home-service.fetch.com
 
 ## Running the Development Server
 ### 3️⃣ **Start the App**
-Once dependencies are installed, start the development server:
+Once dependencies are installed and the environment variables are setup, start the development server:
 
 ```console
 npm run dev
 ```
 The app should now be running at:
-http://localhost:5173/fetch_frontend_project
+http://localhost:5173/fetch_frontend_project.
 If you see an error, make sure no other application is using port 5173.
 
