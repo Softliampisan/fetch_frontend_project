@@ -5,6 +5,7 @@ This is a React + Vite website for finding and matching with dogs. Get started r
 Follow the steps below to set up and run the project locally.
 
 ---
+⚠️ Important: Make sure your browser allows cookies and cross-site tracking. The backend sends an HTTPOnly cookie with a JSON Web Token (JWT), and browser settings may block it by default. To ensure proper authentication and session management, enable cookies in your browser settings.
 
 ## Getting Started
 
