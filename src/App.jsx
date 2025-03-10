@@ -11,7 +11,7 @@ function App() {
   const basename = '/fetch_frontend_project';
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path='/' element={<Navbar />}>
           <Route index element={<Home />} />
