@@ -26,9 +26,16 @@ Make sure you have Node.js installed, then install the required dependencies:
 ```console
 npm install
 ```
+## ⚙️ Environment Variables Setup
+Before running the project, you may need to configure environment variables.
 
-Running the Development Server
-3️⃣ Start the App
+Create a .env.local file in the root directory.
+Add the required environment variables:
+
+VITE_BASE_URL=https://frontend-take-home-service.fetch.com
+
+## Running the Development Server
+### 3️⃣ **Start the App**
 Once dependencies are installed, start the development server:
 
 ```console
