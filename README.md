@@ -1,6 +1,8 @@
 # Fetch Frontend Project 🐶
 
-This is a React + Vite website for finding and matching with dogs. Follow the steps below to set up and run the project locally.
+This is a React + Vite website for finding and matching with dogs. Get started right now by clicking this [link](https://softliampisan.github.io/fetch_frontend_project)! 
+
+Follow the steps below to set up and run the project locally.
 
 ---
 
