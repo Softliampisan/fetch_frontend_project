@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/structural/NavBar'
 
 function App() {
+  
   const basename = '/fetch_frontend_project';
 
   return (
